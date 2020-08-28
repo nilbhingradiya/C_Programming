@@ -1,0 +1,17 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+#include<graphics.h>
+void main()
+{
+	int x=DETECT,y;
+	initgraph(&x,&y,"c:\\TURBOC3\\bgi");
+
+	line(100,100,300,100);
+	line(100,100,100,300);
+	line(100,300,300,300);
+	line(300,300,300,100);
+
+	getch();
+}
